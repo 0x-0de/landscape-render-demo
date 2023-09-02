@@ -1,0 +1,1 @@
+g++ -Wall -std=c++0x ../src/main.cpp ../src/utils/utilmath.cpp ../src/rendering/mesh.cpp ../src/rendering/renderer.cpp ../src/rendering/shader.cpp ../src/game/player.cpp ../src/game/sector.cpp ../src/game/world.cpp -L./ -lpthread -lopengl32 -lgdi32 -lglfw3 -lglew32 -o Demo.exe
